@@ -1,0 +1,17 @@
+
+name: InfuseSmpRNG
+version: 2.1.0
+main: me.hastesmp.InfuseSmpRNG
+api-version: '1.21.11'
+description: Permanent random effects with upgrade progression.
+
+commands:
+  effectadmin:
+    description: Manage player effects
+    usage: /effectadmin <info|give|set|reset> <player>
+    permission: hastesmp.admin
+
+permissions:
+  hastesmp.admin:
+    description: Allows effect administration
+    default: op
